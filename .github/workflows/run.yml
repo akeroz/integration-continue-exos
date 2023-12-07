@@ -5,7 +5,4 @@ jobs:
     steps:
       - uses: actions/setup-python@v2
       - uses: actions/checkout@v2
-        with: 
-          token: ${{secret.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}}
-      - uses: actions/cache@v2
       - run: python main.py
